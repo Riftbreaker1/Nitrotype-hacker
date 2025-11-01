@@ -9,7 +9,7 @@ It does this by transmitting the Nitrotype sentence to http://127.0.0.1:5000/typ
 2. Run the server.py program (python 3.7 or higher is recommended)
 3. Go to the Nitrotype website and start your race
 4. Click on the extension in your browser
-5. Click the "Get text" button and then click the "Run script" button
+5. Click the "Get text" button and then click the "Begin typing" button
 6. In the Python console, messages similar to these should appear:
 ```
    127.0.0.1 - - [01/Nov/2025 02:38:41] "OPTIONS /type HTTP/1.1" 200 -
