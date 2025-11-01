@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Nitrotype hacker",
+  "version": "1.0",
+  "description": "Transmits nitrotype sentence to http://127.0.0.1:5000/type on the local network",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
